@@ -83,7 +83,6 @@ Cell[BoxData[
  CellChangeTimes->{3.790671260710148*^9},
  CellLabel->"In[1]:=",ExpressionUUID->"b8faa13e-4347-445f-a8db-914346fb3e31"],
 
-Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{"DefineLorentzTensors", "[", 
   RowBox[{
