@@ -54,7 +54,17 @@ Cell[BoxData[
 Cell[BoxData[
  RowBox[{"CleanNotebook", "[", 
   RowBox[{"InputNotebook", "[", "]"}], "]"}]], "Input",
- CellLabel->"In[10]:=",ExpressionUUID->"90a58a51-5ac1-4fa0-a26a-e74f37ae2192"]
+ CellLabel->"In[12]:=",ExpressionUUID->"90a58a51-5ac1-4fa0-a26a-e74f37ae2192"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"1", "+", "1"}]], "Input",
+ CellLabel->"In[13]:=",ExpressionUUID->"a7ff31ee-bd20-4433-b52a-87655724c7ff"],
+
+Cell[BoxData["2"], "Output",
+ CellLabel->"Out[13]=",ExpressionUUID->"3d3923a9-7d09-4527-8a72-e9a895fb95cb"]
+}, Open  ]]
 },
 WindowSize->{1440, 817},
 WindowMargins->{{Automatic, -2948}, {Automatic, -8}},

@@ -81,29 +81,7 @@ Cell[BoxData[
      RowBox[{"momlor", "[", 
       RowBox[{"q1", ",", "1"}], "]"}]}], ")"}]}]}]], "Input",
  CellChangeTimes->{3.790671260710148*^9},
- CellLabel->"In[1]:=",ExpressionUUID->"b8faa13e-4347-445f-a8db-914346fb3e31"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"SetOptions", "[", 
-   RowBox[{
-    RowBox[{"InputNotebook", "[", "]"}], ",", 
-    RowBox[{"PrivateNotebookOptions", "\[Rule]", 
-     RowBox[{"{", 
-      RowBox[{"\"\<FileOutlineCache\>\"", "\[Rule]", "False"}], "}"}]}], ",", 
-    RowBox[{"TrackCellChangeTimes", "\[Rule]", "False"}]}], "]"}], 
-  "\n"}]], "Input",
- CellChangeTimes->{{3.790671603618452*^9, 3.790671603618452*^9}},
- CellLabel->"In[3]:=",ExpressionUUID->"e2ae0d1e-9015-4c27-b0cb-5894edbd41db"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"CurrentValue", "[", 
-    RowBox[{"$FrontEnd", ",", "\"\<NotebookAutoSave\>\""}], "]"}], "=", 
-   "True"}], "\n"}]], "Input",
- CellChangeTimes->{{3.7906716295513616`*^9, 3.7906716295513616`*^9}},
- CellLabel->"In[2]:=",ExpressionUUID->"873c6bfe-9688-476e-a9a9-03d29fd3ff9d"]
+ CellLabel->"In[1]:=",ExpressionUUID->"b8faa13e-4347-445f-a8db-914346fb3e31"]
 },
 WindowSize->{1440, 817},
 WindowMargins->{{Automatic, -2948}, {Automatic, -8}},
