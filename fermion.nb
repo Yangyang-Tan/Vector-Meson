@@ -81,7 +81,33 @@ Cell[BoxData[
      RowBox[{"momlor", "[", 
       RowBox[{"q1", ",", "1"}], "]"}]}], ")"}]}]}]], "Input",
  CellChangeTimes->{3.790671260710148*^9},
- CellLabel->"In[1]:=",ExpressionUUID->"b8faa13e-4347-445f-a8db-914346fb3e31"]
+ CellLabel->"In[1]:=",ExpressionUUID->"b8faa13e-4347-445f-a8db-914346fb3e31"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"<<", "FormTracer`"}]], "Input",
+ CellLabel->"In[18]:=",ExpressionUUID->"2be4dc6b-e223-4a17-a148-50b21b6d1938"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData["\<\"\\nFormTracer 2.3.6 loaded.\\n\\nCopyright (C) 2013-2018, \
+Anton K. Cyrol, Mario Mitter, Jan M. Pawlowski, and Nils \
+Strodthoff.\\nFormTracer is released under the GNU General Public License \
+version three or later.\\n\\nIf used in scientific publications, please \
+acknowledge our work by citing:\\nA. K. Cyrol, M. Mitter, and N. Strodthoff, \
+Comput. Phys. Commun. 219C (2017) 346-352, arXiv:1610.09331 \
+[hep-ph]\\n\"\>"], "Print",
+ CellLabel->
+  "During evaluation of \
+In[18]:=",ExpressionUUID->"65647e1b-37d9-4ca3-9908-f68785116075"],
+
+Cell[BoxData["\<\"Using FORM 4.0 (Apr 10 2012) 32-bits.\"\>"], "Print",
+ CellLabel->
+  "During evaluation of \
+In[18]:=",ExpressionUUID->"dc724ecb-ece8-4229-ae07-72e9696c6e6f"]
+}, Open  ]]
+}, Open  ]]
 },
 WindowSize->{1440, 817},
 WindowMargins->{{Automatic, -2948}, {Automatic, -8}},
