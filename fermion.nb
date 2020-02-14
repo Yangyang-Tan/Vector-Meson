@@ -122,7 +122,8 @@ Cell[BoxData[
          RowBox[{"q1", ",", "\[Mu]"}], "]"}], "*", 
         RowBox[{"\[Gamma]", "[", "\[Mu]", "]"}]}]}], ")"}]}], "+", 
     RowBox[{"m", "*", 
-     RowBox[{"IdentityMatrix", "[", "4", "]"}]}]}], ")"}], "/", 
+     RowBox[{"\[Delta]", "[", 
+      RowBox[{"i", ",", "j"}], "]"}]}]}], ")"}], "/", 
   RowBox[{"(", 
    RowBox[{
     SuperscriptBox[
@@ -141,7 +142,7 @@ Cell[BoxData[
 WindowSize->{1440, 817},
 WindowMargins->{{Automatic, -2948}, {Automatic, 0}},
 PrivateNotebookOptions->{"FileOutlineCache"->False},
-Magnification:>2.3 Inherited,
+Magnification:>2.5 Inherited,
 FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
 StyleDefinitions->"Default.nb",
 $CellContext`TrackCellChangeTimes -> False
