@@ -1,43 +1,31 @@
-(* Content-type: application/vnd.wolfram.mathematica *)
-
-(*** Wolfram Notebook File ***)
-(* http://www.wolfram.com/nb *)
-
-(* CreatedBy='Mathematica 12.0' *)
-
-(*CacheID: 234*)
-(* Internal cache information:
-NotebookFileLineBreakTest
-NotebookFileLineBreakTest
-NotebookDataPosition[       158,          7]
-NotebookDataLength[       766,         33]
-NotebookOptionsPosition[       561,         21]
-NotebookOutlinePosition[       906,         36]
-CellTagsIndexPosition[       863,         33]
-WindowFrame->Normal*)
-
-(* Beginning of Notebook Content *)
 Notebook[{
+Cell[BoxData[
+ RowBox[{"SetOptions", "[", 
+  RowBox[{
+   RowBox[{"InputNotebook", "[", "]"}], ",", 
+   RowBox[{"PrivateNotebookOptions", "\[Rule]", 
+    RowBox[{"{", 
+     RowBox[{"\"\<FileOutlineCache\>\"", "\[Rule]", "False"}], "}"}]}], ",", 
+   RowBox[{"TrackCellChangeTimes", "\[Rule]", "False"}]}], "]"}]], "Input",
+ CellLabel->"In[5]:=",ExpressionUUID->"7f9b43f7-a69b-4bc5-834c-0b38db90aca8"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"1", "+", "1"}]], "Input",
+ CellChangeTimes->{{3.790671968138378*^9, 3.7906719700211563`*^9}},
+ CellLabel->"In[6]:=",ExpressionUUID->"e713fa96-ce18-4200-9395-6f942bd9c57e"],
+
+Cell[BoxData["2"], "Output",
+ CellChangeTimes->{3.790671970298514*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"573ac1ea-4188-4d02-a118-aee6c3af9bdc"]
+}, Open  ]]
 },
-WindowSize->{1424, 817},
-WindowMargins->{{Automatic, -2940}, {Automatic, 0}},
+WindowSize->{1440, 817},
+WindowMargins->{{Automatic, -2948}, {Automatic, -8}},
+PrivateNotebookOptions->{"FileOutlineCache"->False},
+Magnification:>2. Inherited,
 FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
-StyleDefinitions->"Default.nb"
+StyleDefinitions->"Default.nb",
+$CellContext`TrackCellChangeTimes -> False
 ]
-(* End of Notebook Content *)
-
-(* Internal cache information *)
-(*CellTagsOutline
-CellTagsIndex->{}
-*)
-(*CellTagsIndex
-CellTagsIndex->{}
-*)
-(*NotebookFileOutline
-Notebook[{
-}
-]
-*)
-
-(* End of internal cache information *)
-
