@@ -6,26 +6,62 @@ Cell[BoxData[
    RowBox[{"PrivateNotebookOptions", "\[Rule]", 
     RowBox[{"{", 
      RowBox[{"\"\<FileOutlineCache\>\"", "\[Rule]", "False"}], "}"}]}], ",", 
-   RowBox[{"TrackCellChangeTimes", "\[Rule]", "False"}]}], "]"}]], "Input",
- CellLabel->"In[5]:=",ExpressionUUID->"7f9b43f7-a69b-4bc5-834c-0b38db90aca8"],
+   RowBox[{"CellContext`TrackCellChangeTimes", "\[Rule]", "False"}]}], 
+  "]"}]], "Input",
+ CellLabel->"In[7]:=",ExpressionUUID->"7f9b43f7-a69b-4bc5-834c-0b38db90aca8"],
+
+Cell[BoxData[
+ RowBox[{"1", "+", "1"}]], "Input",
+ CellLabel->"In[6]:=",ExpressionUUID->"e713fa96-ce18-4200-9395-6f942bd9c57e"],
 
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"1", "+", "1"}]], "Input",
- CellChangeTimes->{{3.790671968138378*^9, 3.7906719700211563`*^9}},
- CellLabel->"In[6]:=",ExpressionUUID->"e713fa96-ce18-4200-9395-6f942bd9c57e"],
+ RowBox[{"2", "+", "2"}]], "Input",
+ CellLabel->"In[11]:=",ExpressionUUID->"1e304354-92ae-49a4-bcdd-5bcb88fae070"],
 
-Cell[BoxData["2"], "Output",
- CellChangeTimes->{3.790671970298514*^9},
- CellLabel->"Out[6]=",ExpressionUUID->"573ac1ea-4188-4d02-a118-aee6c3af9bdc"]
-}, Open  ]]
+Cell[BoxData["4"], "Output",
+ CellLabel->"Out[11]=",ExpressionUUID->"187a2f6e-0038-41ae-8a1d-8244f69722e6"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"CleanNotebook", "[", "nb_NotebookObject", "]"}], ":=", 
+  RowBox[{"Module", "[", 
+   RowBox[{
+    RowBox[{"{", "}"}], ",", 
+    RowBox[{
+     RowBox[{"SetOptions", "[", 
+      RowBox[{"nb", ",", 
+       RowBox[{"PrivateNotebookOptions", "\[Rule]", 
+        RowBox[{"{", 
+         RowBox[{"\"\<FileOutlineCache\>\"", "\[Rule]", "False"}], "}"}]}], 
+       ",", 
+       RowBox[{"\"\<TrackCellChangeTimes\>\"", "\[Rule]", "False"}]}], "]"}], 
+     ";", "\[IndentingNewLine]", 
+     RowBox[{"SetSelectedNotebook", "[", "nb", "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"SelectionMove", "[", 
+      RowBox[{"nb", ",", "All", ",", "Notebook"}], "]"}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"FrontEndExecute", "[", 
+      RowBox[{"{", 
+       RowBox[{"FrontEnd`RemoveOptions", "[", 
+        RowBox[{"FrontEnd`SelectionObject", ",", "\"\<CellChangeTimes\>\""}], 
+        "]"}], "}"}], "]"}]}]}], "]"}]}]], "Input",
+ CellLabel->"In[9]:=",ExpressionUUID->"bda625f3-29a0-46ed-8e25-7f0fc038c2a7"],
+
+Cell[BoxData[
+ RowBox[{"CleanNotebook", "[", 
+  RowBox[{"InputNotebook", "[", "]"}], "]"}]], "Input",
+ CellLabel->"In[10]:=",ExpressionUUID->"90a58a51-5ac1-4fa0-a26a-e74f37ae2192"]
 },
 WindowSize->{1440, 817},
 WindowMargins->{{Automatic, -2948}, {Automatic, -8}},
 PrivateNotebookOptions->{"FileOutlineCache"->False},
+TrackCellChangeTimes->False,
 Magnification:>2. Inherited,
 FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
 StyleDefinitions->"Default.nb",
-$CellContext`TrackCellChangeTimes -> False
+CellContext`TrackCellChangeTimes -> False
 ]
