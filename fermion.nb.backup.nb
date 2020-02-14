@@ -1,3 +1,22 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      3853,        120]
+NotebookOptionsPosition[      3338,        104]
+NotebookOutlinePosition[      3713,        120]
+CellTagsIndexPosition[      3670,        117]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
 Notebook[{
 Cell[BoxData[
  RowBox[{"Simplify", "[", 
@@ -22,8 +41,8 @@ Cell[BoxData[
         SuperscriptBox[
          RowBox[{"momlor", "[", 
           RowBox[{"q1", ",", "1"}], "]"}], "2"]}], "]"}], "*", 
-      RowBox[{"gamma", "[", "1", "]"}]}], ",", "k"}], "]"}]}], 
-  "]"}]], "Input",ExpressionUUID->"b51e458d-d578-4bf2-a883-8bde3b2abc9e"],
+      RowBox[{"gamma", "[", "1", "]"}]}], ",", "k"}], "]"}]}], "]"}]], "Input",\
+ExpressionUUID->"600f72be-1087-45cc-836c-c44058e34b6e"],
 
 Cell[BoxData[
  RowBox[{"Simplify", "[", 
@@ -56,7 +75,7 @@ Cell[BoxData[
      RowBox[{"k", ">", "0"}]}]}]}], "]"}]], "Input",
  CellChangeTimes->{{3.7878853849887285`*^9, 3.787885433204751*^9}},
  CellLabel->
-  "In[173]:=",ExpressionUUID->"9249bbaf-4e18-493a-9fe0-f2e361c6e77a"],
+  "In[173]:=",ExpressionUUID->"16dad19c-cc5f-4fbf-b884-adec5313c2ba"],
 
 Cell[BoxData[
  RowBox[{
@@ -81,35 +100,31 @@ Cell[BoxData[
      RowBox[{"momlor", "[", 
       RowBox[{"q1", ",", "1"}], "]"}]}], ")"}]}]}]], "Input",
  CellChangeTimes->{3.790671260710148*^9},
- CellLabel->"In[1]:=",ExpressionUUID->"b8faa13e-4347-445f-a8db-914346fb3e31"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{"SetOptions", "[", 
-   RowBox[{
-    RowBox[{"InputNotebook", "[", "]"}], ",", 
-    RowBox[{"PrivateNotebookOptions", "\[Rule]", 
-     RowBox[{"{", 
-      RowBox[{"\"\<FileOutlineCache\>\"", "\[Rule]", "False"}], "}"}]}], ",", 
-    RowBox[{"TrackCellChangeTimes", "\[Rule]", "False"}]}], "]"}], 
-  "\n"}]], "Input",
- CellChangeTimes->{{3.790671603618452*^9, 3.790671603618452*^9}},
- CellLabel->"In[3]:=",ExpressionUUID->"e2ae0d1e-9015-4c27-b0cb-5894edbd41db"],
-
-Cell[BoxData[
- RowBox[{
-  RowBox[{
-   RowBox[{"CurrentValue", "[", 
-    RowBox[{"$FrontEnd", ",", "\"\<NotebookAutoSave\>\""}], "]"}], "=", 
-   "True"}], "\n"}]], "Input",
- CellChangeTimes->{{3.7906716295513616`*^9, 3.7906716295513616`*^9}},
- CellLabel->"In[2]:=",ExpressionUUID->"873c6bfe-9688-476e-a9a9-03d29fd3ff9d"]
+ CellLabel->"In[5]:=",ExpressionUUID->"fb884a06-d9fd-40fc-be07-261ba901e8fb"]
 },
-WindowSize->{1440, 817},
-WindowMargins->{{Automatic, -2948}, {Automatic, -8}},
-PrivateNotebookOptions->{"FileOutlineCache"->False},
+WindowSize->{1424, 817},
+WindowMargins->{{Automatic, -2932}, {Automatic, 0}},
 Magnification:>1.8 Inherited,
 FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
-StyleDefinitions->"Default.nb",
-$CellContext`TrackCellChangeTimes -> False
+StyleDefinitions->"Default.nb"
 ]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 848, 24, 280, "Input",ExpressionUUID->"600f72be-1087-45cc-836c-c44058e34b6e"],
+Cell[1409, 46, 1084, 31, 244, "Input",ExpressionUUID->"16dad19c-cc5f-4fbf-b884-adec5313c2ba"],
+Cell[2496, 79, 838, 23, 99, "Input",ExpressionUUID->"fb884a06-d9fd-40fc-be07-261ba901e8fb"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
