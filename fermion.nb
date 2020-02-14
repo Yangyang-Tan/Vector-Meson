@@ -84,35 +84,64 @@ Cell[BoxData[
  CellLabel->"In[1]:=",ExpressionUUID->"b8faa13e-4347-445f-a8db-914346fb3e31"],
 
 Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"DefineLorentzTensors", "[", 
+  RowBox[{
+   RowBox[{"\[Delta]", "[", 
+    RowBox[{"\[Mu]", ",", "\[Nu]"}], "]"}], ",", 
+   RowBox[{"momlor", "[", 
+    RowBox[{"p", ",", "\[Mu]"}], "]"}], ",", 
+   RowBox[{"p", ".", "q"}], ",", 
+   RowBox[{"\[Epsilon]", "[", "]"}], ",", 
+   RowBox[{"\[Delta]S", "[", 
+    RowBox[{"i", ",", "j"}], "]"}], ",", 
+   RowBox[{"\[Gamma]", "[", 
+    RowBox[{"\[Mu]", ",", "i", ",", "j"}], "]"}], ",", 
+   RowBox[{"\[Gamma]5", "[", 
+    RowBox[{"i", ",", "j"}], "]"}], ",", 
+   RowBox[{"momlors", "[", 
+    RowBox[{"p", ",", "\[Mu]"}], "]"}], ",", 
+   RowBox[{"p", "\[CircleDot]", "q"}]}], "]"}]], "Input",
+ CellLabel->"In[19]:=",ExpressionUUID->"86619f2e-891b-4435-842f-59df9648606e"],
 
 Cell[BoxData[
- RowBox[{"<<", "FormTracer`"}]], "Input",
- CellLabel->"In[18]:=",ExpressionUUID->"2be4dc6b-e223-4a17-a148-50b21b6d1938"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData["\<\"\\nFormTracer 2.3.6 loaded.\\n\\nCopyright (C) 2013-2018, \
-Anton K. Cyrol, Mario Mitter, Jan M. Pawlowski, and Nils \
-Strodthoff.\\nFormTracer is released under the GNU General Public License \
-version three or later.\\n\\nIf used in scientific publications, please \
-acknowledge our work by citing:\\nA. K. Cyrol, M. Mitter, and N. Strodthoff, \
-Comput. Phys. Commun. 219C (2017) 346-352, arXiv:1610.09331 \
-[hep-ph]\\n\"\>"], "Print",
- CellLabel->
-  "During evaluation of \
-In[18]:=",ExpressionUUID->"65647e1b-37d9-4ca3-9908-f68785116075"],
-
-Cell[BoxData["\<\"Using FORM 4.0 (Apr 10 2012) 32-bits.\"\>"], "Print",
- CellLabel->
-  "During evaluation of \
-In[18]:=",ExpressionUUID->"dc724ecb-ece8-4229-ae07-72e9696c6e6f"]
-}, Open  ]]
-}, Open  ]]
+ RowBox[{
+  RowBox[{"(", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"-", "\[ImaginaryI]"}], 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"momlor", "[", 
+         RowBox[{"q1", ",", "\[Mu]"}], "]"}], 
+        RowBox[{"\[Gamma]", "[", 
+         RowBox[{"\[Mu]", ",", "i", ",", "j"}], "]"}]}], "+", 
+       RowBox[{"rf", "*", 
+        RowBox[{"momlors", "[", 
+         RowBox[{"q1", ",", "\[Mu]"}], "]"}], "*", 
+        RowBox[{"\[Gamma]", "[", "\[Mu]", "]"}]}]}], ")"}]}], "+", 
+    RowBox[{"m", "*", 
+     RowBox[{"IdentityMatrix", "[", "4", "]"}]}]}], ")"}], "/", 
+  RowBox[{"(", 
+   RowBox[{
+    SuperscriptBox[
+     RowBox[{"momlor", "[", 
+      RowBox[{"q1", ",", "0"}], "]"}], "2"], "+", 
+    RowBox[{
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{"1", "+", "rf"}], ")"}], "2"], "*", 
+     SuperscriptBox[
+      RowBox[{"momlor", "[", 
+       RowBox[{"q1", ",", "1"}], "]"}], "2"]}], "+", 
+    SuperscriptBox["m", "2"]}], 
+   ")"}]}]], "Input",ExpressionUUID->"55284a88-ba37-48da-85ac-c6f92800db97"]
 },
 WindowSize->{1440, 817},
-WindowMargins->{{Automatic, -2948}, {Automatic, -8}},
+WindowMargins->{{Automatic, -2948}, {Automatic, 0}},
 PrivateNotebookOptions->{"FileOutlineCache"->False},
-Magnification:>1.8 Inherited,
+Magnification:>2.3 Inherited,
 FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
 StyleDefinitions->"Default.nb",
 $CellContext`TrackCellChangeTimes -> False
