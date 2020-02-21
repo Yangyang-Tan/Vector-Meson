@@ -138,7 +138,7 @@ Cell[BoxData[{
    RowBox[{"{", 
     RowBox[{"HeavisideTheta", ",", "Power", ",", "pR", ",", "prop"}], "}"}], 
    "]"}], ";"}]}], "Input",
- Background->RGBColor[1, 0.85, 0.85],
+ Background->RGBColor[0.94, 0.91, 0.88],
  CellLabel->"In[37]:=",ExpressionUUID->"86619f2e-891b-4435-842f-59df9648606e"],
 
 Cell[BoxData[{
@@ -223,9 +223,6 @@ Cell[BoxData[{
   ";"}]}], "Input",
  Background->RGBColor[0.87, 0.94, 1],
  CellLabel->"In[44]:=",ExpressionUUID->"55284a88-ba37-48da-85ac-c6f92800db97"],
-
-Cell[BoxData[""], \
-"Input",ExpressionUUID->"5da249b4-2f9e-441a-80e0-240f6acdbd2e"],
 
 Cell[CellGroupData[{
 
@@ -416,7 +413,7 @@ Cell[BoxData[
 WindowSize->{1440, 817},
 WindowMargins->{{Automatic, -2948}, {Automatic, -8}},
 PrivateNotebookOptions->{"FileOutlineCache"->False},
-Magnification:>1.7 Inherited,
+Magnification:>1.5 Inherited,
 FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
 StyleDefinitions->"Default.nb",
 $CellContext`TrackCellChangeTimes -> False
