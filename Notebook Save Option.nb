@@ -11,20 +11,6 @@ Cell[BoxData[
  CellLabel->"In[7]:=",ExpressionUUID->"7f9b43f7-a69b-4bc5-834c-0b38db90aca8"],
 
 Cell[BoxData[
- RowBox[{"1", "+", "1"}]], "Input",
- CellLabel->"In[6]:=",ExpressionUUID->"e713fa96-ce18-4200-9395-6f942bd9c57e"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"2", "+", "2"}]], "Input",
- CellLabel->"In[11]:=",ExpressionUUID->"1e304354-92ae-49a4-bcdd-5bcb88fae070"],
-
-Cell[BoxData["4"], "Output",
- CellLabel->"Out[11]=",ExpressionUUID->"187a2f6e-0038-41ae-8a1d-8244f69722e6"]
-}, Open  ]],
-
-Cell[BoxData[
  RowBox[{
   RowBox[{"CleanNotebook", "[", "nb_NotebookObject", "]"}], ":=", 
   RowBox[{"Module", "[", 
@@ -54,17 +40,7 @@ Cell[BoxData[
 Cell[BoxData[
  RowBox[{"CleanNotebook", "[", 
   RowBox[{"InputNotebook", "[", "]"}], "]"}]], "Input",
- CellLabel->"In[12]:=",ExpressionUUID->"90a58a51-5ac1-4fa0-a26a-e74f37ae2192"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"1", "+", "1"}]], "Input",
- CellLabel->"In[13]:=",ExpressionUUID->"a7ff31ee-bd20-4433-b52a-87655724c7ff"],
-
-Cell[BoxData["2"], "Output",
- CellLabel->"Out[13]=",ExpressionUUID->"3d3923a9-7d09-4527-8a72-e9a895fb95cb"]
-}, Open  ]]
+ CellLabel->"In[12]:=",ExpressionUUID->"90a58a51-5ac1-4fa0-a26a-e74f37ae2192"]
 },
 WindowSize->{1440, 817},
 WindowMargins->{{Automatic, -2948}, {Automatic, -8}},
@@ -75,3 +51,4 @@ FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
 StyleDefinitions->"Default.nb",
 CellContext`TrackCellChangeTimes -> False
 ]
+
